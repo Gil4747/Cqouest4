@@ -93,7 +93,7 @@ void print_all(struct Trie* curr, char* str, int level, boolean reversed)
 int main(int argc, char **argv)
 {
 	boolean reversed = FALSE;
-	if(argc > 0 && strcmp(argv[1], "r") == 0){
+	if(argc > 1 && strcmp(argv[1], "r") == 0){
 		reversed = TRUE;
 	}
 
